@@ -1,6 +1,6 @@
 :root {
     --bg-gradient: linear-gradient(135deg, #fff5f7 0%, #e3f2fd 100%);
-    --primary-pink: #ff80ab;
+    --primary-black: #000000;
     --primary-blue: #90caf9;
     --soft-yellow: #fff9c4;
     --text-main: #455a64;
@@ -38,7 +38,7 @@ body {
 
 .icon-header { font-size: 3rem; margin-bottom: 1rem; }
 
-h1 { color: var(--primary-pink); margin-bottom: 1rem; font-size: 2rem; }
+h1 { color: var(--primary-black); margin-bottom: 1rem; font-size: 2rem; }
 
 .quiz-meta {
     display: flex;
@@ -51,7 +51,7 @@ h1 { color: var(--primary-pink); margin-bottom: 1rem; font-size: 2rem; }
 }
 
 .timer-badge {
-    background: var(--primary-pink);
+    background: var(--primary-black);
     color: white;
     padding: 5px 15px;
     border-radius: 20px;
@@ -68,7 +68,7 @@ h1 { color: var(--primary-pink); margin-bottom: 1rem; font-size: 2rem; }
 
 #progress-bar {
     height: 100%;
-    background: var(--primary-pink);
+    background: var(--primary-black);
     width: 0%;
     transition: width 0.4s ease;
 }
@@ -87,7 +87,7 @@ button {
 }
 
 .btn-main {
-    background: var(--primary-pink);
+    background: var(--primary-black);
     color: white;
     padding: 15px 30px;
     border-radius: 50px;
